@@ -16,11 +16,12 @@ SECTOR_RATIOS = {
 
 # 2. BUSINESS LOGIC: TAX ZONES -  Statutory corporate income tax rates (STRs) - OECD / Corporate Tax tatistics 2025 https://www.oecd.org/en/publications/corporate-tax-statistics-2025_6a915941-en.html and Taxing Wages 2025 https://www.oecd.org/en/publications/taxing-wages-2025_b3a95829-en.html
 TAX_ZONES = {
-    'eu':    {'label': 'Europe (France/Germany/Italy)',      'salary_tax': 0.85, 'corp_tax': 0.25}, #36/29/
-    'us':    {'label': 'North America (USA/Canada)',     'salary_tax': 0.25, 'corp_tax': 0.21}, 
-    'asia':  {'label': 'Asia (SG/HK/Japan)',      'salary_tax': 0.20, 'corp_tax': 0.17}, 
-    'latam': {'label': 'South America (Brazil)',  'salary_tax': 0.60, 'corp_tax': 0.34}, 
-    'afr':   {'label': 'Africa (Nigeria/SA)',       'salary_tax': 0.15, 'corp_tax': 0.30}, 
+    'afr':   {'label': 'Africa (Nigeria/EN/GAB)',       'salary_tax': 0.15, 'corp_tax': 0.28}, #30/24/25
+    'asia':  {'label': 'Asia (KOR/Japan)',      'salary_tax': 0.28, 'corp_tax': 0.22},   #26/16/23      
+    'eu':    {'label': 'Europe (France/Germany/Italy)',      'salary_tax': 0.47, 'corp_tax': 0.32}, #36/29/27  
+    'us':    {'label': 'North America (USA/Canada)',     'salary_tax': 0.30, 'corp_tax': 0.25}, #25/26
+    'latam': {'label': 'South America (Brazil/MEX)',  'salary_tax': 0.20, 'corp_tax': 0.31}, #34/28
+    'global': {'label': 'Global Average', 'salary_tax': 0.40, 'corp_tax': 0.25}
 }
 
 # --- LAYOUT ---
