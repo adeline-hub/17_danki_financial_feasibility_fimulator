@@ -6,7 +6,7 @@
 
 <div align="center">
   <!-- REPLACE THE LINK BELOW WITH YOUR ACTUAL PHOTO URL -->
-  <img src="https://github.com/adeline-hub/danki_financial_feasibility_simulator/blob/main/Capture%20d%E2%80%99%C3%A9cran.png?raw=true" alt="Nambo-Ade" style="border-radius: 50%; width: 400px; height: 400px;">
+  <img src="https://github.com/adeline-hub/danki_financial_feasibility_simulator/blob/main/Capture%20d%E2%80%99%C3%A9cran.png?raw=true" alt="Nambo-Ade" style="border-radius: 50%; width: 800px; height: 600px;">
 </div>
 
 Made by Nambo-Ade with *Python*, *Render*, *GitHub*
